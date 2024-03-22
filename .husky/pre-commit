@@ -1,1 +1,1 @@
-cd ../Arrange_Box && npm run format
+cd ../ArrangeBox && npm run format

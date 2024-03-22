@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-cd ../Arrange_Box && npx validate-branch-name && npm run lint
+cd ../ArrangeBox && npx validate-branch-name && npm run lint
