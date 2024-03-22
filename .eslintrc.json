@@ -1,0 +1,22 @@
+{
+  "plugins": ["prettier", "import"],
+  "extends": ["prettier", "airbnb-base", "plugin:import/recommended", "eslint:recommended"],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "no-debugger": "off",
+    "no-console": 0,
+    "class-methods-use-this": "off",
+    "linebreak-style": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "ignorePatterns": ["src/index.js"]
+}

@@ -1,0 +1,41 @@
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.box__list {
+  height: 200px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.box__list-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.clicked-item {
+  background-color: rgb(190, 13, 167);
+}
+
+.box__list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.box__list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.box__list::-webkit-scrollbar-thumb {
+  background: #c906fa;
+  border-radius: 10px;
+}

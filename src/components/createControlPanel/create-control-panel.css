@@ -1,0 +1,43 @@
+.control-area {
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.control-area__btn {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.control-area__btn:hover {
+  background-color: rgb(190, 13, 167);
+  color: white;
+}
+
+.control-area__btn:active {
+  animation: click 0.1s 1 ease;
+  color: white;
+}
+
+@keyframes click {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.8);
+  }
+}
